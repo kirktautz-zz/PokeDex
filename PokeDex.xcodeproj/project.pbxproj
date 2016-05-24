@@ -12,6 +12,8 @@
 		FF0D2B2A1CF40DC7002CE2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0D2B281CF40DC7002CE2DC /* Main.storyboard */; };
 		FF0D2B2C1CF40DC7002CE2DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0D2B2B1CF40DC7002CE2DC /* Assets.xcassets */; };
 		FF0D2B2F1CF40DC7002CE2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0D2B2D1CF40DC7002CE2DC /* LaunchScreen.storyboard */; };
+		FF0D2B371CF411FD002CE2DC /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF0D2B361CF411FD002CE2DC /* music.mp3 */; };
+		FF0D2B391CF41365002CE2DC /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = FF0D2B381CF41365002CE2DC /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF0D2B2B1CF40DC7002CE2DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0D2B2E1CF40DC7002CE2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0D2B301CF40DC7002CE2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0D2B361CF411FD002CE2DC /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		FF0D2B381CF41365002CE2DC /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FF0D2B2B1CF40DC7002CE2DC /* Assets.xcassets */,
 				FF0D2B2D1CF40DC7002CE2DC /* LaunchScreen.storyboard */,
 				FF0D2B301CF40DC7002CE2DC /* Info.plist */,
+				FF0D2B361CF411FD002CE2DC /* music.mp3 */,
+				FF0D2B381CF41365002CE2DC /* pokemon.csv */,
 			);
 			path = PokeDex;
 			sourceTree = "<group>";
@@ -122,9 +128,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0D2B371CF411FD002CE2DC /* music.mp3 in Resources */,
 				FF0D2B2F1CF40DC7002CE2DC /* LaunchScreen.storyboard in Resources */,
 				FF0D2B2C1CF40DC7002CE2DC /* Assets.xcassets in Resources */,
 				FF0D2B2A1CF40DC7002CE2DC /* Main.storyboard in Resources */,
+				FF0D2B391CF41365002CE2DC /* pokemon.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
