@@ -26,7 +26,7 @@ class PokeDetailVC: UIViewController {
 
     override func viewDidLoad() {
    
-        name.text = pokemon.name
+        name.text = pokemon.name.capitalizedString
         mainImg.image = UIImage(named: "\(pokemon.pokedexId)")
         
         pokemon.downloadPokeDetails {
